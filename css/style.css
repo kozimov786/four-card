@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing:inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    font-family:"Poppins","Arial","sans-serif";
+    text-align: center;
+}
+.container{
+    width: 800px;
+    background-color: lavender;
+}
+.page-header{
+    text-align: center;
+}
